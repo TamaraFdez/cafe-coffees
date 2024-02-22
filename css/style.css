@@ -9,7 +9,7 @@
 body {
     font-family: 'Oswald', sans-serif;
     text-align: center;
-    background-color: #d3d3d379;
+    background-color: #fffeef;
     color: #333;
 }
 
@@ -108,22 +108,25 @@ main {
 
 /* Sobre nosotros */
 .nosotros-contenedor {
-
     display: flex;
     gap: 3rem;
     flex-direction: column;
     margin-bottom: 3rem;
+    margin-top: 3rem;
+
 }
 
 .nosotros-contenido {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
 
 }
 
 .historia {
-    background-color: #CD5C5C;
-    color: #fffdd0bd;
+    text-align: left;
+    background: url(../imagenes/michal-parzuchowski-ItaV89TNkks-unsplash.jpg) no-repeat;
+    color: #fff;
     padding: 3rem;
     height: 300px;
     display: flex;
@@ -131,11 +134,16 @@ main {
     justify-content: center;
     align-content: center;
     font-family: 'Fira Sans', sans-serif;
-    gap: .5rem;
+    gap: .8rem;
     border-radius: 15px;
+    text-shadow: #333 0px 0px 2px;
+    text-wrap: balance;
 }
 
+
+
 .equipo {
+    text-align: left;
     padding: 3rem;
     height: 300px;
     display: flex;
@@ -144,10 +152,10 @@ main {
     align-content: center;
     font-family: 'Fira Sans', sans-serif;
     color: #532e14;
-    gap: 0.5rem;
-
+    gap: 0.8rem;
+    text-wrap: balance;
     border-radius: 15px;
-    background-color: #fffdd06c;
+
 }
 
 /* Galeria */
@@ -249,4 +257,19 @@ main {
 
 footer {
     background-color: #333;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+}
+
+footer i {
+    color: #fff;
+    width: 24px;
+}
+
+footer .links a {
+    color: #CD5C5C;
 }
