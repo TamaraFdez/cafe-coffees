@@ -246,3 +246,7 @@ main {
 .galeria-pic-img9 {
     grid-area: img9;
 }
+
+footer {
+    background-color: #333;
+}
